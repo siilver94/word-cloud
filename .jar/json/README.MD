@@ -1,6 +1,24 @@
-## JSON 
+# JSON (JavaScript Object Notation)
 
-JSON은 속성-값 쌍 또는 "키-값 쌍"으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷이다. 
-비동기 브라우저/서버 통신 을 위해, 넓게는 XML을 대체하는 주요 데이터 포맷이다.
+## 📌 JSON이란?
+JSON은 **데이터를 구조화하여 저장하고 전송하는 경량 데이터 포맷**입니다.  
+텍스트 기반이며, 사람이 읽기 쉽고 기계가 쉽게 처리할 수 있어 API, 설정 파일, 데이터 교환 등에 널리 사용됩니다.
 
-출처 : https://ko.wikipedia.org/wiki/JSON
+---
+
+## 🔹 JSON 문법
+- **키-값 쌍(Key-Value Pair)** 구조로 이루어짐.
+- **문자열(String)**은 항상 **큰따옴표("")**로 감싸야 함.
+- **데이터 타입**: 문자열, 숫자, 불리언, 배열, 객체, `null` 지원.
+
+```json
+{
+  "name": "Alice",
+  "age": 25,
+  "isStudent": false,
+  "skills": ["Python", "JavaScript"],
+  "address": {
+    "city": "Seoul",
+    "country": "Korea"
+  }
+}
