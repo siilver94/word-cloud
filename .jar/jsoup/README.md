@@ -1,26 +1,24 @@
-## Jsoup 이란?
+# Jsoup - Java HTML Parser  
 
-**jsoup**은 **HTML** 문서에 저장된 데이터를 구문 분석, 추출 및 조작하도록 설계된 오픈 소스 **Java 라이브러리** 입니다.
+## 📌 Jsoup이란?  
+**Jsoup**은 Java에서 **HTML을 파싱하고 웹 스크래핑(Web Scraping)을 쉽게 수행할 수 있도록 도와주는 라이브러리**입니다.  
+HTML을 Java의 **DOM(Document Object Model)** 형태로 변환하여, 손쉽게 요소를 검색하고 데이터 추출이 가능합니다.  
 
-## Jsoup 사용 방법
+---
 
-사용방법은 해당 홈페이지 http://jsoup.org/download 에서 다운을 받거나
+## 🔹 주요 기능  
+✔ **HTML 파싱**: HTML 문서를 로드하고 DOM 객체로 변환.  
+✔ **웹 스크래핑**: 웹 페이지에서 원하는 데이터 추출.  
+✔ **HTML 수정**: HTML 요소 추가, 수정, 삭제 가능.  
+✔ **CSS 선택자 지원**: CSS Query를 활용한 요소 검색.  
 
-**메이븐** 등을 이용해 라이브러리를 추가해주면 된다.
+---
 
-```
-<!-- Jsoup -->
-
+## 🔹 설치 방법  
+### 1️⃣ Maven 프로젝트  
+```xml
 <dependency>
-
-<groupId>org.jsoup</groupId>
-
-<artifactId>jsoup</artifactId>
-
-<version>1.10.2</version>
-
-
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.15.3</version>
 </dependency>
-```
-
-자바 프로젝트에 라이브러리를 추가했다면 **Jsoup** 을 **Import**한다.
