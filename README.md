@@ -1,4 +1,4 @@
-# 프로젝트 : 워드 클라우드
+# Project : 워드 클라우드
 
 <code><img height = "400"
 src = https://github.com/siilver94/word-cloude/assets/57824945/08103bf9-1054-4943-94a6-cbf5ec794d9e></code>
